@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--var-bg-secondary);
+  height: 10vh;
+  padding: 5px 5%;
+}
+
+.footer > p {
+  font-size: 1.5rem;
+  margin-right: 4rem;
+}
+
+.footer > a {
+  height: 50%;
+  margin-right: 1rem;
+}

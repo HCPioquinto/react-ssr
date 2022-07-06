@@ -1,0 +1,11 @@
+/* Variables */
+:root {
+  --var-skyblue: #6495ec;
+  --var-green: #12aa11;
+  --var-red: #f02929;
+
+  --var-bg-primary: var(--var-skyblue);
+  --var-bg-secondary: var(--var-green);
+
+  --var-button-color: white;
+}

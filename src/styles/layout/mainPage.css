@@ -1,0 +1,10 @@
+.main-layout {
+  min-height: 120vh;
+  width: 100%;
+  padding: 150px 20px 0;
+}
+
+.center-page {
+  min-height: 100vh;
+  padding: 5vh 5%;
+}

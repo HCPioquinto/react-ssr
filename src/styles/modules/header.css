@@ -1,0 +1,21 @@
+.header-module {
+  height: 100px;
+  width: 100vw;
+  background-color: skyblue;
+  padding: 10px 5%;
+  justify-content: space-between;
+  position: fixed;
+  box-shadow: 1px 3px 5px #999;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-container {
+  height: 100%;
+}
+
+.donations_box {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80px;
+}

@@ -1,9 +1,6 @@
-# react-ssr
-
-
-Run NPM i
-Run npm run build
-run npm run server:start
+Run yarn
+Run yarn  build
+run yarn run server
 
 To test:
 

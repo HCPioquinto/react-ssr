@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 const path = require('path');
-const PORT = process.env.PORT || 3000;
+const PORT = 6969;
 const indexPath = path.resolve(__dirname, '..', 'build', 'index.html');
 const fs = require('fs');
 
@@ -20,7 +20,7 @@ app.listen(PORT, (error) => {
   if (error) {
     return console.log('Error during app startup', error);
   }
-  console.log('listening on ' + PORT + '...');
+  console.log('listening on localhost:' + PORT + ' ...');
 });
 
 console.log('=====================================================');
@@ -35,15 +35,12 @@ app.get('/*', (req, res, next) => {
     }
     // Get Meta tags:
     // TODO inject meta tags
-    const routeMetaTags = await metatagsManager(req.params[0]);
-
-    let segmentWriteKey = process.env.REACT_APP_SEGMENT_WRITE_KEY;
-
+    const routeMetaTags = (await metatagsManager(req.params[0])) || {};
+  
     const finalHtml = htmlData
       .replace(/__TITLE_PLACEHOLDER__/g, routeMetaTags.title)
       .replace(/__DESCRIPTION_PLACEHOLDER__/g, routeMetaTags.description)
-      .replace(/__IMAGE_PLACEHOLDER__/g, routeMetaTags.image)
-      .replace(/__SEGMENT_WRITE_KEY__/g, segmentWriteKey);
+      .replace(/__IMAGE_PLACEHOLDER__/g, routeMetaTags.image);
 
     return res.send(finalHtml);
   });

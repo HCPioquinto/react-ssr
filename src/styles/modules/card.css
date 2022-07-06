@@ -1,0 +1,103 @@
+.card {
+  width: 300px;
+  position: relative;
+  border: 5px solid #333;
+  border-radius: 5px;
+  box-shadow: 3px 4px 10px #6f6b6b;
+}
+
+.card * {
+  font-family: Arial;
+  font-size: 1.2rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background: rgba(30, 30, 30, 0.5);
+  position: absolute;
+  width: 100%;
+  color: white;
+  align-items: center;
+}
+
+.card-header .header {
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  width: 60%;
+}
+
+.btn.share {
+  background: var(--var-skyblue);
+  font-size: 1.2rem;
+  border: 1px solid white;
+}
+
+.btn.donate {
+  background: var(--var-skyblue);
+}
+
+.btn.donate.donated {
+  background: var(--var-green);
+  pointer-events: none;
+}
+
+.btn.disabled {
+  background-color: #6f6b6b;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.card-body {
+  width: 100%;
+  background-color: white;
+}
+
+.card-body img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.body-description {
+  display: flex;
+  flex-direction: column;
+  padding: 0.9rem 1rem;
+}
+
+.description-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.description-row span {
+  display: flex;
+  gap: 5px;
+}
+
+.body-footer {
+  background: #d3d3d3;
+  padding: 1.3rem 1rem;
+  align-items: center;
+}
+
+.body-footer .description-row {
+  margin: 0;
+}
+
+.card-footer {
+  display: flex;
+}
+.btn.phone {
+  width: 100%;
+  background-color: var(--var-green);
+  border-radius: 0;
+  padding: 0.8rem 0;
+  height: 100%;
+  text-decoration: none;
+}
