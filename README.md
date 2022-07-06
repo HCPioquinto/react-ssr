@@ -1,7 +1,7 @@
 # react-ssr
 
 
-Run NPM I
+Run NPM i
 Run npm run build
 run npm run server:start
 

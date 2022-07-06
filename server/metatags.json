@@ -1,0 +1,33 @@
+{
+  "index": {
+    "name": "Home",
+    "title": "A Test Website",
+    "description": "Unique off the grid experiences handcrafted to depart from the ordinary and provide you with temporary liberation from the concrete jungle – and your commitments.",
+    "image": "https://images.ctfassets.net/xd67wv0u4k8n/6KlOywyGx3eSJAaHn1M61w/a3d1a5cad6c2fdb1b300934f263ac0bb/TWebsite_logo__3_.png"
+  },
+  "journal": {
+    "name": "Journal",
+    "title": "TWebsite - Journal",
+    "description": "Blogs made by TWebsite",
+    "image": "https://images.ctfassets.net/xd67wv0u4k8n/5nRsRm85JoPgo18FfIKaDV/1023eb0c03322a1460b2b84712dad683/1-30.jpg"
+    
+  },
+  "about": {
+    "name": "About",
+    "title": "About TWebsite",
+    "description": "TWebsite is an Australian-owned nature company, creative platform and sustainability brand. We find epic locations across the country to help people shake free of their everyday existence and tap into the power of the outdoors.",
+    "image": "https://images.ctfassets.net/xd67wv0u4k8n/5nRsRm85JoPgo18FfIKaDV/1023eb0c03322a1460b2b84712dad683/1-30.jpg"
+  },
+  "host": {
+    "name": "Host",
+    "title": "TWebsite - Host",
+    "description": "Unlock the wilderness of your private property and generate income from underutilised areas of your property by partnering with TWebsite.",
+    "image": "https://images.ctfassets.net/xd67wv0u4k8n/5nRsRm85JoPgo18FfIKaDV/1023eb0c03322a1460b2b84712dad683/1-30.jpg"
+  },
+  "science": {
+    "name": "Science",
+    "title": "TWebsite - Science",
+    "description": "Lorem ipsum",
+    "image": "https://images.ctfassets.net/xd67wv0u4k8n/5nRsRm85JoPgo18FfIKaDV/1023eb0c03322a1460b2b84712dad683/1-30.jpg"
+  }
+}
